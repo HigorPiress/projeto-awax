@@ -35,7 +35,6 @@ header {
 .logoimg {
     width: 80px;
     height: 80px;
-    
 }
 
 .menu {
@@ -69,5 +68,16 @@ header {
 .menu li a:hover,
 .menu .active a  {
     border-bottom: 5px solid #B28756;
+    color: #CCC;
 }
 
+
+/* banner */
+
+.banner {
+    height: calc(100vh - 100px); /* aqui eu quero por 100vh porém tem que descontar 100px do header para não ter barra de rolagem */
+    background-color: #333; /* Até carregar a imagem vai aparecer esse fundo */
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
