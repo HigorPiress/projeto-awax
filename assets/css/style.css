@@ -183,7 +183,7 @@ header {
     margin-bottom: 40px;
 }
 
-.default {
+.default .section-body{
     max-width:1140px; /* Largura das section definida lá em cima no menu */
     margin: auto; /* Para ir para o meio */
 }
