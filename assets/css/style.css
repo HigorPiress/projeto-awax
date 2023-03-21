@@ -311,6 +311,19 @@ CSS DE ÁREAS ESPECIFICAS
     border-left: 0;
 }
 
+.section-projects--photos {
+    width: 100vw;      /* Vai ser usado 100% da largura indepedente do tamanho da tela */
+    max-width: 1140px;  /* Caso a tela seja maior que 1140, vai parar no 1140. */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;  /* Se por acaso não couber na linha de cima permite ir para linha de baixo */
+    justify-content: center;
+}
+
+.section-projects--photo {
+    width: 280px;
+}
+
 
 
 
