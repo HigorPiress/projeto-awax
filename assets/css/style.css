@@ -324,6 +324,40 @@ CSS DE ÁREAS ESPECIFICAS
     width: 280px;
 }
 
+.section-projects--photoarea {
+    margin: 10px;
+    width: 260px;  /* Diminuido 20px por causa do margin, 10 de cada lado*/
+    height: 160px;
+}
+
+.section-projects--photoarea img {
+    width: inherit; /* Vai herdar do item anterior */
+    height: inherit;
+}
+
+.section-projects--photoinfo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section-projects--photoinfo h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-projects--photoarea:hover .section-projects--photoinfo { /* Ao passar o mouse no photo area, vai ser trocado o photoinfo por display flex e então as configurações do photinfo irão aparecer */
+    display: flex;
+}
+
+
+
 
 
 
