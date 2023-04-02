@@ -661,7 +661,6 @@ CSS DE ÁREAS ESPECIFICAS
 .premium-body {
     display: flex;
     justify-content: center;
-
 }
 
 .feature-area {
@@ -710,6 +709,67 @@ CSS DE ÁREAS ESPECIFICAS
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#bar {
+    width: 1140px;
+    border-bottom: 1px solid #CCC;
+} 
+
+
+.section-premium .sliders-pointers {
+    position: absolute;
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-premium .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-premium .pointer.active {
+    background-color: #B28756;
+}
+
+.section-premium a,
+.button {
+    display: inline-block;
+    background-color: #B28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.fot {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+
 
 
 
