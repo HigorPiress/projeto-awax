@@ -658,6 +658,60 @@ CSS DE ÁREAS ESPECIFICAS
 }
 
 
+.premium-body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.feature-area {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.feature img {
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.feature {
+    display: flex;
+    align-items: start;
+}
+
+.title-preimium ,
+.desc-premium {
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: 600;
+}
+
+.title-preimium {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.title-feature {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.text-feature p {
+    font-size: 12px;
+    color: #CCC;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+.desc-premium {
+    font-size: 12px;
+    color: #CCC;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
 
 
 
