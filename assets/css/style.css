@@ -472,6 +472,7 @@ CSS DE ÁREAS ESPECIFICAS
 
 .section-happyclients {
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 .section-happyclients .sliders {
@@ -548,6 +549,120 @@ CSS DE ÁREAS ESPECIFICAS
     color: #999;
     margin-top: 10px;
 }
+
+.supportersarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.supporters img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.default .title-prince,
+.default .desc-prince {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .title-prince {
+    font-size: 20px;
+}
+
+.default .desc-prince {
+    font-size: 12px;
+    color: #CCC;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.prince-area {
+    display: flex;
+    justify-content: center;
+}
+
+.section-prince-body {
+    max-width:1140px;
+}
+
+.section-prince {
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section-prince .table-title{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.section-prince .table-value {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-prince .table-desc {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-prince .table-services {
+    color: #555;
+    font-size: 12px;
+    text-align: center;
+}
+
+.prince-border {
+    width: 15px;
+    height: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #555;
+}
+
+.section-prince a,
+.button-prince {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+#active {
+    background-color: #B28756;
+}
+
+
+
+
+
+
+
 
 
 
