@@ -746,6 +746,15 @@ CSS DE ÁREAS ESPECIFICAS
     background-color:#B28756;
 }
 
+.section-premium .button-premium {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
 
 
 
