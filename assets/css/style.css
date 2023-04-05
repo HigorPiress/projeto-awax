@@ -752,6 +752,40 @@ CSS DE ÁREAS ESPECIFICAS
 }
 
 
+.some-factsarea {
+    display: flex;
+    justify-content: center;
+}
+
+.some-factsbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-facts {
+    color: #B28756;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.section-fact-line {
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #999;
+}
+
+.some-factsbody h4 {
+    color: white;
+    font-size: 16px;
+}
+
+.some-factsbody p{
+    color: #999;
+}
+
 
 
 
