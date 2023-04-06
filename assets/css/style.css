@@ -761,7 +761,10 @@ CSS DE ÁREAS ESPECIFICAS
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
     align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .title-facts {
@@ -780,9 +783,25 @@ CSS DE ÁREAS ESPECIFICAS
 .some-factsbody h4 {
     color: white;
     font-size: 16px;
+    text-transform: uppercase;
 }
 
 .some-factsbody p{
+    color: #999;
+    margin-top: 20px;
+}
+
+
+
+.socialmedia-area {
+    background-color: white;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia p {
     color: #999;
 }
 
