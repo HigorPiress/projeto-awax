@@ -877,13 +877,13 @@ CSS DE ÁREAS ESPECIFICAS
     border: 0;
     background: transparent;
     border-bottom:1px solid #CCC;
-    outline:0;
+    outline:0; /* linha/borda de dentro */ /*EX: outline-color: red;  */
     margin-top:10px;
 }
 
 .section-contact textarea {
     height:100px;
-    resize:none;
+    resize:none; /* Tira a controle de redimensionar */
 }
 
 .section-contact--split {
