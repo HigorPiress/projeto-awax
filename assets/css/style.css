@@ -132,6 +132,7 @@ header {
     padding: 10px 30px;
     margin-top: 30px;
     border-radius: 20px;
+    border: none;
 }
 
 .banner .sliders-pointers {
@@ -946,6 +947,10 @@ CSS DE ÁREAS ESPECIFICAS
     display: flex;
 }
 
+.section-rodapé-social--area {
+    display: flex;
+}
+
 .section-rodapé-social img {
     width: 15px;
     height: auto;
@@ -978,6 +983,37 @@ CSS DE ÁREAS ESPECIFICAS
     margin-top: 150px;
 }
 
+.section-rodapé-text {
+    width: 400px;
+    color: #999;
+}
+
+.section-rodapé-emailarea {
+    width: 300px;
+    height: 150px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-rodapé-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+
+.section-rodapé-emailarea input[type=text] {
+    display: block;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+}
 
 
 
