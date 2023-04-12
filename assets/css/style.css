@@ -133,6 +133,7 @@ header {
     margin-top: 30px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .banner .sliders-pointers {
@@ -975,6 +976,11 @@ CSS DE ÁREAS ESPECIFICAS
     margin-bottom: 15px;
 }
 
+.section-rodapé {
+    display: flex;
+    justify-content: center;
+}
+
 .section-rodapé-social .section-rodapé-social-img.active {
     background-color: #B28756;
 }
@@ -1015,6 +1021,26 @@ CSS DE ÁREAS ESPECIFICAS
     outline: 0;
 }
 
+
+
+
+
+
+
+
+
+/* MIDIA QUERY TABLE */
+
+/* tem que ser maior que 450 que é um cel e menor que 800px largura máxima do tablet*/
+
+@media (min-width:450px) and (max-width:800px)  {
+    nav  {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
 
 
 
