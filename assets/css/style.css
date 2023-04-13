@@ -38,6 +38,10 @@ header {
     height: 80px;
 }
 
+.menu-opener {
+    display: none;
+}
+
 .menu {
     flex: 1;
     display: flex;
@@ -1034,11 +1038,116 @@ CSS DE ÁREAS ESPECIFICAS
 /* tem que ser maior que 450 que é um cel e menor que 800px largura máxima do tablet*/
 
 @media (min-width:450px) and (max-width:800px)  {
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .menu-opener {
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+
     nav  {
         display: none;
         position: absolute;
         z-index: 99;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 25px;
+        margin-left: 50px;
+        border: 0;
+    }
+
+    .menu li.active a {
+        border: 0;
+        color: #B28756;
+    }
+
+
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus--left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-aboutus--right {
+        width: auto;
+    }
+
+
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service  {
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section-service:first-child {
+        border-left: 0;
+    }
+
+
+
+    .section-team {
+        max-width: 580px; /*  soma de dois slides */ 
+    }
+
+
+    .supporters {
+        display: flex;
+    }
+
+    .supporters img {
+        width: 85px;
+    }
+
+
+    .prince-area {
+        flex-wrap: wrap;
+    }
+
+    .section-prince-body {
+        min-width: 50%;
+        
+    }
+
+    .section-prince {
+        margin-bottom: 20px;
+        margin-left: 95px;
+    }
+
+
+
+    .some-factsarea {
+        flex-wrap: wrap;
+    }
+
+    .some-factsbody {
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
