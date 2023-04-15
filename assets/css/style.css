@@ -907,7 +907,7 @@ CSS DE ÁREAS ESPECIFICAS
     background-position: center;
     padding-bottom: 30px;
     padding-top: 30px;
-    height: 300px;
+    
 }
 
 .section-map--area {
@@ -1148,6 +1148,50 @@ CSS DE ÁREAS ESPECIFICAS
         margin-bottom: 50px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+
+
+
+    .section-map {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .section-map--info {
+        width: auto;
+    }
+
+    .section-map--area {
+        width: auto;
+    }
+
+    .section-map--info-item {
+        margin-bottom: 20px;
+    }
+
+    .section-map--info-item:last-child {
+        margin-bottom: 0;
+    }
+
+
+
+
+
+    .section-rodapé-social {
+       margin-right: 125px;
+    }
+
+    .section-rodapé-social--area {
+        flex-direction: column;
+    }
+
+    .section-rodapé-social--info {
+        margin-bottom: 20px;
+    }
+
+    .section-rodapé-text {
+        width: 200px;
     }
 }
 
