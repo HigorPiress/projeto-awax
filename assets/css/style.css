@@ -948,9 +948,10 @@ CSS DE ÁREAS ESPECIFICAS
 }
 
 
-.section-rodapé-social {
+ .section-rodapé-social {
     display: flex;
 }
+
 
 .section-rodapé-social--area {
     display: flex;
@@ -976,13 +977,13 @@ CSS DE ÁREAS ESPECIFICAS
     font-size: 30px;
 }
 
-.trespontos {
-    margin-bottom: 15px;
+.section-rodapé-email--copyarea {
+    display: flex;
+    
 }
 
-.section-rodapé {
-    display: flex;
-    justify-content: center;
+.trespontos {
+    margin-bottom: 15px;
 }
 
 .section-rodapé-social .section-rodapé-social-img.active {
@@ -990,12 +991,16 @@ CSS DE ÁREAS ESPECIFICAS
 }
 
 .copy {
-    margin-top: 150px;
+    text-align: start;
+    color: white;
+    margin-top: 90px;
 }
 
 .section-rodapé-text {
     width: 400px;
     color: #999;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .section-rodapé-emailarea {
@@ -1024,7 +1029,7 @@ CSS DE ÁREAS ESPECIFICAS
     border-bottom: 1px solid #CCC;
     outline: 0;
 }
-
+ 
 
 
 
@@ -1177,24 +1182,15 @@ CSS DE ÁREAS ESPECIFICAS
     }
 
 
-
-
-
-    .section-rodapé-social {
-       margin-right: 125px;
-    }
-
-    .section-rodapé-social--area {
+    .section-rodapé-email--copyarea {
+        display: flex;
         flex-direction: column;
     }
 
-    .section-rodapé-social--info {
-        margin-bottom: 20px;
+    .section-rodapé-email {
+        margin-top: 20px;
     }
 
-    .section-rodapé-text {
-        width: 200px;
-    }
 }
 
 
@@ -1383,27 +1379,170 @@ CSS DE ÁREAS ESPECIFICAS
         margin-bottom: 0;
     }
 
-
-
-
-
-    .section-rodapé-social {
-       margin-right: 125px;
-    }
-
-    .section-rodapé-social--area {
+    .section-share {
+        display: flex;
         flex-direction: column;
-    }
+     }
+ 
+     .section-share--area {
+         display: flex;
+         margin-top: 20px;
+     }
+ 
+     .section-contact input[type=text] {
+         width: 45%;
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+ 
+     #subject {
+         width: 90%;
+     }
+ 
+     #massage {
+         width: 90%;
+         margin-left: 20px;
+         margin-right: 20px;
+         margin-top: 20px;
+     }
 
-    .section-rodapé-social--info {
-        margin-bottom: 20px;
-    }
 
-    .section-rodapé-text {
-        width: 200px;
-    }
+
+     .section-rodapé-social--area{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+     }
+
+     .section-rodapé-social--info {
+        margin-bottom: 10px;
+     }
+
+     .section-rodapé-text {
+        width: 300px;
+        margin: 0;
+     }
+
+
+     .section-rodapé-text span {
+        display: none;
+     }
+
+     .section-rodapé-emailarea {
+        width: 260px;
+        margin-top: 50px;
+     }
+
+     .section-rodapé-email {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+     }
+
+     .section-rodapé-email--copyarea {
+        flex-direction: column;
+
+     }
+
+     .section-rodapé-emailarea input[type=text] {
+        width: 60%;
+     }
+
+     .section-rodapé-email .button {
+        margin-bottom: 50px;
+        margin-left: 20px;
+        text-align: center;
+     }
+
+     .copy {
+        margin-top: 30px;
+        margin-left: 10px;
+     }
+
+
+
 }
 
+
+
+/* 
+ .section-rodapé-social {
+    display: flex;
+}
+
+.section-rodapé-social--area {
+    display: flex;
+}
+
+.section-rodapé-social img {
+    width: 15px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-rodapé-social-img {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    border-radius: 15px;
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.trespontos {
+    margin-bottom: 15px;
+}
+
+.section-rodapé {
+    display: flex;
+    justify-content: center;
+}
+
+.section-rodapé-social .section-rodapé-social-img.active {
+    background-color: #B28756;
+}
+
+.copy {
+    margin-top: 150px;
+}
+
+.section-rodapé-text {
+    width: 400px;
+    color: #999;
+}
+
+.section-rodapé-emailarea {
+    width: 300px;
+    height: 150px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-rodapé-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+
+.section-rodapé-emailarea input[type=text] {
+    display: block;
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+}
+*/
 
 
 
